@@ -1,4 +1,4 @@
 <template>
     <h1>Home</h1>
-    <p>Uhhhh</p>
+    <p>Sugar Cube Studio</p>
 </template>
