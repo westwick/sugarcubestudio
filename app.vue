@@ -4,9 +4,7 @@
     <NuxtLoadingIndicator />
     <!-- <NuxtWelcome /> -->
     <AppHeader />
-    <div class="container mx-auto">
-      <NuxtPage />
-    </div>
+    <NuxtPage />
   </div>
 </template>
 
