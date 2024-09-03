@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <!-- <NuxtWelcome /> -->
@@ -15,3 +15,17 @@ useHead({
   }
 })
 </script>
+
+<style>
+body {
+  font-family: 'Figtree', sans-serif;
+  background: #171926;
+  color: #fff;
+}
+.main {
+  padding: 16px;
+  background: #0c0f1b;
+  min-height: 100vh;
+  border-top: 1px solid yellow;
+}
+</style>
