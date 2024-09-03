@@ -2,6 +2,9 @@
   <div>
     <NuxtRouteAnnouncer />
     <!-- <NuxtWelcome /> -->
-     <NuxtPage />
+    <AppHeader />
+    <div class="container mx-auto">
+      <NuxtPage />
+    </div>
   </div>
 </template>
