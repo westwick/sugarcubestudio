@@ -1,12 +1,12 @@
 <template>
-  <header class="px-4">
+  <header class="px-2 md:px-4">
     <div class="container mx-auto flex items-center justify-between">
       <NuxtLink to="/" class="text-white text-lg md:text-xl font-bold flex items-center hover:text-yellow-200"
         exact-active-class="text-yellow-300">
         <img src="@/assets/images/logo.png" class="logo mr-4" /><span class="hidden md:block">Sugar Cube Studio</span>
       </NuxtLink>
       <div class="flex items-center space-x-4 ml-auto">
-        <NuxtLink to="/" class="navlink text-white text-md font-bold hover:text-yellow-200"
+        <NuxtLink to="/" class="ml-4 navlink text-white text-md font-bold hover:text-yellow-200"
           exact-active-class="link-active text-yellow-300">
           HOME
         </NuxtLink>

@@ -21,7 +21,7 @@
           <h3 class="text-lg font-semibold mb-4">Stay up to date</h3>
           <p class="text-sm text-slate-300 mb-4 leading-loose">
             Sign up for our mailing list to receive updates on new products, exclusive offers, and important
-            announcements. Stay up to date with everything we're working on, directly in your inbox.
+            announcements. Get the latest on everything we're working on, directly in your inbox.
           </p>
 
           <div class="text-center mt-12">
@@ -36,7 +36,7 @@
         <div>
           <h3 class="text-lg font-semibold mb-4">Follow us</h3>
           <p class="text-sm text-slate-300 mb-4 leading-loose">
-            Stay connected with us on social media. Follow our latest updates, sneak peeks, and announcements.
+            Connect with us on social media. Follow for our latest updates, sneak peeks, and announcements.
           </p>
           <ul class="flex flex-col">
             <li class="mb-4">
@@ -65,7 +65,7 @@
       </div>
 
       <!-- Footer Bottom -->
-      <div class="mt-12 text-left text-slate-600 text-sm">
+      <div class="mt-12 text-center text-slate-600 text-sm">
         <p>&copy; {{ new Date().getFullYear() }} Sugar Cube Studio</p>
         <p>Terms of Service | Privacy Policy</p>
       </div>

@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <!-- <NuxtWelcome /> -->
-    <div class="flex flex-col min-h-screen p-4 border-t border-yellow-300">
+    <div class="flex flex-col min-h-screen p-0 md:p-4 border-t border-yellow-300">
       <AppHeader />
       <main class="flex-grow">
         <NuxtPage />
