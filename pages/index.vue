@@ -1,7 +1,7 @@
 <template>
   <AppHero />
   <div class="bg-white">
-    <section class="angled-section py-4 md:py-12">
+    <section class="angled-section py-4 md:py-8">
       <div class="container mx-auto text-center">
         <p class="text-lg md:text-xl max-w-64 md:max-w-lg px-8 mx-auto text-slate-400 italic">Our imagination drives our products.</p>
       </div>

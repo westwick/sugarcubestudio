@@ -1,4 +1,7 @@
 <template>
+  <section>
+    <img src="@/assets/images/graddiv.jpg" class="w-full h-8" />
+  </section>
   <footer class="bg-gray-900 text-white py-12">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -7,10 +10,13 @@
           <h3 class="text-lg font-semibold mb-4">About Sugar Cube Studio</h3>
           <p class="text-sm text-gray-300 mb-4 leading-loose">
             We are an indie software company dedicated to creating innovative applications and games that resonate
-            deeply with our audience. Through art, design, and immersive storytelling, we aim to fill the gaps in the
-            industry by crafting experiences that are not just unique, but transformative.
+            deeply with our audience.
           </p>
           <p class="text-sm text-gray-300 mb-4 leading-loose">
+            Through art, design, and immersive storytelling, we aim to fill the gaps in the
+            industry by crafting experiences that are not just unique, but transformative.
+          </p>
+          <p class="text-sm text-gray-300 leading-loose">
             Our products celebrate culture and creativity, bringing people together through shared moments of discovery
             and connection.
           </p>
@@ -24,7 +30,7 @@
             announcements. Get the latest on everything we're working on, directly in your inbox.
           </p>
 
-          <div class="text-center mt-12">
+          <div class="text-center mt-8 mb-4">
             <button
               class="bg-yellow-300 hover:bg-yellow-200 text-blue-950 font-semibold py-2 px-6 rounded transition-all duration-300">
               Join the mailing list
