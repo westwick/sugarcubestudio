@@ -3,8 +3,13 @@
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <!-- <NuxtWelcome /> -->
-    <AppHeader />
-    <NuxtPage />
+    <div class="flex flex-col min-h-screen p-4 border-t border-yellow-300">
+      <AppHeader />
+      <main class="flex-grow">
+        <NuxtPage />
+      </main>
+      <AppFooter />
+    </div>
   </div>
 </template>
 
@@ -22,10 +27,11 @@ body {
   background: #171926;
   color: #fff;
 }
+
 .main {
-  padding: 16px;
+  /* padding: 16px; */
   background: #0c0f1b;
-  min-height: 100vh;
-  border-top: 1px solid yellow;
+  /* min-height: 100vh; */
+  
 }
 </style>

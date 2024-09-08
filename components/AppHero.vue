@@ -7,7 +7,7 @@
     <!-- Content -->
     <div class="relative z-10 text-center text-white py-8 md:py-20 px-4">
       <h1 class="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">Simurgh: Coming Soon</h1>
-      <p class="text-lg md:text-2xl max-w-2xl mx-auto font-medium">
+      <p class="text-lg md:text-2xl max-w-2xl mx-auto font-medium text-slate-300">
         Step into the streets in this intense beat-em-up adventure. Play as a fearless woman challenging the status quo,
         fighting for her right to live freely.
       </p>

@@ -1,20 +1,23 @@
 <template>
   <header class="px-4">
-    <div class="container mx-auto flex items-center">
-      <div class="flex items-center space-x-4">
-        <NuxtLink to="/" class="text-white text-lg md:text-xl font-bold flex items-center hover:text-yellow-200" exact-active-class="text-yellow-300">
-          <img src="@/assets/images/logo.png" class="logo mr-4"/><span class="hidden md:block">Sugar Cube Studio</span>
-        </NuxtLink>
-        <div class="text-slate-700">/</div>
-        <NuxtLink to="/" class="navlink text-white text-md font-bold hover:text-yellow-200" exact-active-class="link-active text-yellow-300">
+    <div class="container mx-auto flex items-center justify-between">
+      <NuxtLink to="/" class="text-white text-lg md:text-xl font-bold flex items-center hover:text-yellow-200"
+        exact-active-class="text-yellow-300">
+        <img src="@/assets/images/logo.png" class="logo mr-4" /><span class="hidden md:block">Sugar Cube Studio</span>
+      </NuxtLink>
+      <div class="flex items-center space-x-4 ml-auto">
+        <NuxtLink to="/" class="navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300">
           HOME
         </NuxtLink>
         <div class="text-slate-700">/</div>
-        <NuxtLink to="/apps" class="navlink text-white text-md font-bold hover:text-yellow-200" exact-active-class="link-active text-yellow-300">
+        <NuxtLink to="/apps" class="navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300">
           APPS
         </NuxtLink>
         <div class="text-slate-700">/</div>
-        <NuxtLink to="/contact" class="navlink text-white text-md font-bold hover:text-yellow-200" exact-active-class="link-active text-yellow-300">
+        <NuxtLink to="/contact" class="navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300">
           CONTACT
         </NuxtLink>
       </div>
@@ -26,27 +29,33 @@
 header {
   background: #171926;
 }
+
 header a {
   transition: all ease-in-out 0.2s;
 }
+
 .navlink {
   border-bottom: 3px solid transparent;
   border-top: 3px solid transparent;
   padding: 16px 8px;
 }
+
 .logo {
   width: 40px;
   height: auto;
   transform: rotate(0);
   transition: all 0.3s ease-in-out;
 }
+
 .logo:hover {
   transform: rotate(180deg);
 }
+
 .link-active {
   border-bottom: 3px solid #67a1d6;
   position: relative;
 }
+
 .link-active::before {
   content: "";
   position: absolute;
