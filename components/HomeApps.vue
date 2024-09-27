@@ -34,6 +34,7 @@
 
 <script setup>
 import appMockupImage from "~/assets/images/nowruz-mockup.png";
+// made with mockuphone.com
 </script>
 
 <style scoped>
