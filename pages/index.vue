@@ -11,28 +11,13 @@
       </div>
     </section>
     <section>
-      <div class="py-16 container mx-auto text-center">
-        <h2 class="text-black font-bold text-2xl mb-8">
-          About Sugar Cubes Studio
-        </h2>
-        <p class="text-gray-900 text-lg max-w-4xl mx-auto">
-          We are an indie software company dedicated to creating innovative
-          applications and games that resonate deeply with our audience. Through
-          art, design, and immersive storytelling, we aim to fill the gaps in
-          the industry by crafting experiences that are not just unique, but
-          transformative. Our products celebrate culture and creativity,
-          bringing people together through shared moments of discovery and
-          connection.
-        </p>
-      </div>
+      <HomeNewsletter />
     </section>
     <section
       class="bg-gradient-to-t from-[rgb(215,223,232)] to-[rgb(244,246,248)]"
     >
       <div class="py-16 container mx-auto text-center">
-        <h2 class="text-black font-bold text-2xl mb-8">
-          About Sugar Cube Studio
-        </h2>
+        <h2 class="text-black font-bold text-2xl mb-8">Our Apps</h2>
         <p class="text-gray-900 text-lg max-w-4xl mx-auto">
           We are an indie software company dedicated to creating innovative
           applications and games that resonate deeply with our audience. Through
