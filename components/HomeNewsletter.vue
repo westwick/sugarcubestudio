@@ -13,7 +13,7 @@
               type="email"
               v-model="email"
               placeholder="Enter your email"
-              class="text-black w-full px-4 py-2 mb-4 rounded border border-gray-300"
+              class="text-black w-full px-4 py-2 mb-4 rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:outline-none"
               required
             />
             <button
