@@ -6,7 +6,7 @@
         <p
           class="text-lg md:text-xl max-w-64 md:max-w-lg px-8 mx-auto text-slate-400 italic"
         >
-          Our imagination drives our products.
+          Innovations driven by imagination.
         </p>
       </div>
     </section>
@@ -88,5 +88,6 @@ useHead({
     calc(100% - 100px) 100%,
     100px 100%
   );
+  box-shadow: inset 0px 0px 20px 2px rgba(0, 0, 0, 10); /* Add shadow effect */
 }
 </style>

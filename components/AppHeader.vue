@@ -1,23 +1,38 @@
 <template>
   <header class="px-2 md:px-4">
     <div class="container mx-auto flex items-center justify-between">
-      <NuxtLink to="/" class="text-white text-lg md:text-xl font-bold flex items-center hover:text-yellow-200"
-        exact-active-class="text-yellow-300">
-        <img src="@/assets/images/logo.png" class="logo mr-4" /><span class="hidden md:block">Sugar Cube Studio</span>
+      <NuxtLink
+        to="/"
+        class="text-white text-lg md:text-xl font-bold flex items-center hover:text-yellow-200"
+        exact-active-class="text-yellow-300"
+      >
+        <img src="@/assets/images/logo.png" class="logo mr-4" /><span
+          class="hidden md:block"
+          >Sugar Cube Studio</span
+        >
       </NuxtLink>
       <div class="flex items-center space-x-4 ml-auto">
-        <NuxtLink to="/" class="ml-4 navlink text-white text-md font-bold hover:text-yellow-200"
-          exact-active-class="link-active text-yellow-300">
+        <NuxtLink
+          to="/"
+          class="ml-4 navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300"
+        >
           HOME
         </NuxtLink>
         <div class="text-slate-700">/</div>
-        <NuxtLink to="/apps" class="navlink text-white text-md font-bold hover:text-yellow-200"
-          exact-active-class="link-active text-yellow-300">
+        <NuxtLink
+          to="/apps"
+          class="navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300"
+        >
           APPS
         </NuxtLink>
         <div class="text-slate-700">/</div>
-        <NuxtLink to="/contact" class="navlink text-white text-md font-bold hover:text-yellow-200"
-          exact-active-class="link-active text-yellow-300">
+        <NuxtLink
+          to="/contact"
+          class="navlink text-white text-md font-bold hover:text-yellow-200"
+          exact-active-class="link-active text-yellow-300"
+        >
           CONTACT
         </NuxtLink>
       </div>
@@ -28,6 +43,19 @@
 <style>
 header {
   background: #171926;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  height: 25px;
+  background: linear-gradient(to bottom, rgba(103, 161, 214, 0.5), transparent);
+  z-index: 10;
+  pointer-events: none;
 }
 
 header a {
