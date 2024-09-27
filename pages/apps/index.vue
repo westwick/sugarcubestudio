@@ -24,6 +24,6 @@ useHead({
 }
 
 .app-button {
-  @apply bg-yellow-300 text-black px-40 py-40 rounded-md;
+  @apply bg-yellow-300 text-black px-20 py-40 rounded-md;
 }
 </style>
