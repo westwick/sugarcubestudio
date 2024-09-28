@@ -18,10 +18,7 @@
         fearless woman challenging the status quo, fighting for her right to
         live freely.
       </p>
-      <NuxtLink
-        to="/apps"
-        class="mt-6 relative inline-block text-md sm:text-xl py-2 px-4 sm:py-3 sm:px-6 cursor-pointer text-white border-2 border-transparent rounded-md gradient-border"
-      >
+      <NuxtLink to="/apps" class="hero-button-main gradient-button-yellow">
         Learn More</NuxtLink
       >
     </div>
@@ -29,19 +26,7 @@
 </template>
 
 <style>
-.gradient-border {
-  background-color: hsla(0, 0%, 8%, 0.3);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border-radius: 0.5rem;
-  position: relative;
-  border: 1px solid #ccc;
-  color: #fff;
-  transition: all 0.4s ease-in-out;
-}
-
-.gradient-border:hover {
-  border: 1px solid yellow;
-  color: yellow;
+.hero-button-main {
+  @apply mt-6 relative inline-block text-base sm:text-xl py-2 px-6 sm:py-3 md:px-10 cursor-pointer text-black font-bold rounded-md;
 }
 </style>

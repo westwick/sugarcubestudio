@@ -1,10 +1,12 @@
 <template>
   <div class="container mx-auto py-16 px-4">
-    <h1 class="text-4xl font-bold mb-8 text-center text-white">Contact Us</h1>
+    <h1 class="text-4xl font-bold mb-8 text-center text-white">
+      Get in touch!
+    </h1>
     <div
       class="max-w-2xl mx-auto bg-gray-900 p-8 rounded-lg shadow-lg border border-gray-700"
     >
-      <form @submit.prevent="submitForm" class="space-y-6">
+      <form class="space-y-6" method="POST" data-netlify="true">
         <div>
           <label for="name" class="block text-sm font-medium text-gray-300 mb-1"
             >Name</label
@@ -12,6 +14,7 @@
           <input
             type="text"
             id="name"
+            name="name"
             v-model="name"
             required
             class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
@@ -27,6 +30,7 @@
             type="email"
             id="email"
             v-model="email"
+            name="email"
             required
             class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
           />
@@ -41,6 +45,7 @@
             id="message"
             v-model="message"
             rows="6"
+            name="message"
             required
             class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
           ></textarea>
@@ -48,7 +53,7 @@
         <div>
           <button
             type="submit"
-            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all duration-300"
+            class="w-full gradient-button text-white font-bold py-2 px-4 rounded transition-all duration-300"
           >
             Send Message
           </button>
@@ -98,3 +103,5 @@ useHead({
   ],
 });
 </script>
+
+<style scoped></style>
