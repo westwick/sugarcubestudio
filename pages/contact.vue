@@ -6,7 +6,7 @@
     <div
       class="max-w-2xl mx-auto bg-gray-900 p-8 rounded-lg shadow-lg border border-gray-700"
     >
-      <form @submit.prevent="submitForm" class="space-y-6">
+      <form class="space-y-6" netlify>
         <div>
           <label for="name" class="block text-sm font-medium text-gray-300 mb-1"
             >Name</label
