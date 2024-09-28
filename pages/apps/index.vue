@@ -7,7 +7,9 @@
         class="link app-button flex-1 simurgh-link outline-text"
         >Simurgh</NuxtLink
       >
-      <NuxtLink to="/apps/nowruz" class="link app-button flex-1"
+      <NuxtLink
+        to="/apps/nowruz"
+        class="link app-button flex-1 nowruz-link outline-text"
         >Nowruz</NuxtLink
       >
     </p>
@@ -32,6 +34,14 @@ useHead({
   background-image: url("/public/home-bg.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  /* Add any other necessary styles */
+}
+
+.nowruz-link {
+  background-image: url("/public/images/nowruz.png");
+  background-size: cover;
+  background-position: 25% 75%;
   background-repeat: no-repeat;
   /* Add any other necessary styles */
 }
