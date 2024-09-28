@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto text-center content-center">
-    <h1 class="text-xl mb-4">Apps!</h1>
+  <div class="container mt-10 mx-auto text-center content-center">
+    <!-- <h1 class="text-xl mb-4">Apps!</h1> -->
     <p class="flex pt-100 space-x-4 mx-auto">
       <NuxtLink
         to="/apps/simurgh"
