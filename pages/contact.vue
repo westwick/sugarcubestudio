@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto py-16 px-4">
-    <h1 class="text-4xl font-bold mb-8 text-center text-white">Contact Us</h1>
+    <h1 class="text-4xl font-bold mb-8 text-center text-white">
+      Get in touch!
+    </h1>
     <div
       class="max-w-2xl mx-auto bg-gray-900 p-8 rounded-lg shadow-lg border border-gray-700"
     >
@@ -48,7 +50,7 @@
         <div>
           <button
             type="submit"
-            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all duration-300"
+            class="w-full gradient-button text-white font-bold py-2 px-4 rounded transition-all duration-300"
           >
             Send Message
           </button>
@@ -98,3 +100,5 @@ useHead({
   ],
 });
 </script>
+
+<style scoped></style>
