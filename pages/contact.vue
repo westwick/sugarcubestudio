@@ -6,7 +6,13 @@
     <div
       class="max-w-2xl mx-auto bg-gray-900 p-8 rounded-lg shadow-lg border border-gray-700"
     >
-      <form class="space-y-6" method="POST" data-netlify="true">
+      <form
+        @submit.prevent="handleSubmit"
+        class="space-y-6"
+        name="contact-page"
+        netlify
+      >
+        <input type="hidden" name="form-name" value="contact-page" />
         <div>
           <label for="name" class="block text-sm font-medium text-gray-300 mb-1"
             >Name</label
@@ -63,23 +69,39 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+import { ref } from "vue";
+
 const name = ref("");
 const email = ref("");
 const message = ref("");
 
-const submitForm = () => {
-  console.log("Form submitted with data:", {
-    name: name.value,
-    email: email.value,
-    message: message.value,
-  });
-  // Here you would typically send the form data to your backend or API
-  // After successful submission, you might want to clear the form or show a success message
-  name.value = "";
-  email.value = "";
-  message.value = "";
-  alert("Thank you for your message. We'll get back to you soon!");
+const handleSubmit = async () => {
+  const formData = new URLSearchParams();
+  formData.append("form-name", "contact-page");
+  formData.append("name", name.value);
+  formData.append("email", email.value);
+  formData.append("message", message.value);
+
+  try {
+    const response = await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: formData.toString(),
+    });
+
+    if (response.ok) {
+      // Clear form fields
+      name.value = "";
+      email.value = "";
+      message.value = "";
+      alert("Thank you for your message. We'll get back to you soon!");
+    } else {
+      throw new Error("Form submission failed");
+    }
+  } catch (error) {
+    console.error("Error submitting form", error, JSON.stringify(error));
+  }
 };
 
 useHead({
