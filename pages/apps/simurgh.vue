@@ -6,10 +6,11 @@
     <h1>Simurgh</h1>
   </div>
   <div class="container mx-auto">
-    <p class="my-10 text-lg">
-      Simurgh, the mythical bird of Persian mythology, inspires a young woman to
-      fight for her freedom against relentless male oppression in this
-      beat-em-up adventure.
+    <p class="my-10 md:text-2xl text-lg">
+      Simurgh, the mythical bird of Persian mythology, inspires this action
+      packed experience. <br />Step into the streets in this intense beat-em-up
+      adventure. <br />Play as a fearless woman challenging the status quo,
+      fighting for her right to live freely.
     </p>
   </div>
 </template>
