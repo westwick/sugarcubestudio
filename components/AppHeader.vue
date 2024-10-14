@@ -46,7 +46,7 @@ header {
   position: relative;
 }
 
-header::after {
+/* header::after {
   content: "";
   position: absolute;
   left: 0;
@@ -56,7 +56,7 @@ header::after {
   background: linear-gradient(to bottom, rgba(72, 74, 5, 0.5), transparent);
   z-index: 10;
   pointer-events: none;
-}
+} */
 
 header a {
   transition: all ease-in-out 0.2s;
