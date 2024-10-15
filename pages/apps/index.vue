@@ -36,7 +36,7 @@
 
         <!-- app card -->
         <div class="app-card bg-white rounded-lg overflow-hidden shadow-md">
-          <NuxtLink to="/apps/simurgh">
+          <NuxtLink to="/apps/nowruz">
             <img
               src="~/assets/images/nowruz.png"
               alt="Simurgh App"
@@ -55,7 +55,7 @@
           </div>
           <div class="bg-gray-100 flex flex-row border-t-2 border-gray-200 p-6">
             <NuxtLink
-              to="/apps/simurgh"
+              to="/apps/nowruz"
               class="text-blue-950 font-semibold py-2 px-6 rounded transition-all duration-500 hover:bg-yellow-400 bg-yellow-300"
             >
               Learn More
