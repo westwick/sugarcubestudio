@@ -1,5 +1,5 @@
 <template>
-  <!-- <section class="bg-white text-black min-h-96"> -->
+  <PageHeader subtitle="Our Applications" title="Nowruz" />
   <div
     class="relative w-full h-96 items-center justify-center bg-cover bg-center"
     :style="{ backgroundImage: 'url(/images/nowruz.png)' }"
@@ -13,7 +13,6 @@
       and convenient mobile app.
     </p>
   </div>
-  <!-- </section> -->
 </template>
 
 <script setup>

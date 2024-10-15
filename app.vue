@@ -3,9 +3,7 @@
     <NuxtRouteAnnouncer />
     <NuxtLoadingIndicator />
     <!-- <NuxtWelcome /> -->
-    <div
-      class="flex flex-col min-h-screen p-0 md:p-4 border-t border-yellow-300"
-    >
+    <div class="flex flex-col min-h-screen border-t border-yellow-300">
       <AppHeader />
       <main class="flex-grow">
         <NuxtPage />
@@ -49,10 +47,11 @@ body {
 
 .gradient-button-yellow {
   background: linear-gradient(to right, #f9b857, #fce680);
+  transition: all 1s ease-in-out;
 }
 
 .gradient-button-yellow:hover {
   background: linear-gradient(to right, #e0a64e, #e3cd73);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 1s ease-in-out;
 }
 </style>

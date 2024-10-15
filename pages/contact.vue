@@ -1,4 +1,5 @@
 <template>
+  <PageHeader subtitle="Contact Us" title="We'd love to hear from you" />
   <div class="container mx-auto py-16 px-4 relative">
     <div class="absolute inset-0 z-0">
       <img
@@ -7,10 +8,12 @@
         class="w-full h-full object-cover"
       />
     </div>
+    <div>
+      <p class="text-lg text-center mb-8 text-white">
+        Fill out the form below and we'll get back to you soon.
+      </p>
+    </div>
     <div class="relative z-10">
-      <h1 class="text-4xl font-bold mb-8 text-center text-white">
-        Get in touch!
-      </h1>
       <div
         class="max-w-2xl mx-auto bg-gray-900 bg-opacity-80 p-8 rounded-lg shadow-lg border border-gray-700"
       >

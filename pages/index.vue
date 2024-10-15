@@ -64,6 +64,5 @@ useHead({
     calc(100% - 100px) 100%,
     100px 100%
   );
-  box-shadow: inset 0px 0px 20px 2px rgba(0, 0, 0, 10); /* Add shadow effect */
 }
 </style>
