@@ -32,21 +32,21 @@
             <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
               Screenshots
             </h2>
-            <div class="grid grid-cols-3 gap-2">
+            <div class="grid grid-rows-3 gap-2">
               <img
-                src="/assets/simurgh/2024-10-16-07h54m38s347.png"
+                src="~/assets/simurgh/2024-10-16-07h54m38s347.png"
                 alt="Screenshot 1"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
               />
               <img
-                src="~/assets/images/screenshot1.png"
+                src="~/assets/simurgh/2024-10-16-08h31m41s931.png"
                 alt="Screenshot 2"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
               />
               <img
-                src="~/assets/images/screenshot2.png"
+                src="~/assets/simurgh/Screenshot_20241014-210110.png"
                 alt="Screenshot 3"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
               />
             </div>
           </div>
