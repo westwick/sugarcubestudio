@@ -34,7 +34,7 @@
             </h2>
             <div class="grid grid-cols-3 gap-2">
               <img
-                src="~/assets/images/screenshot4.png"
+                src="/assets/simurgh/2024-10-16-07h54m38s347.png"
                 alt="Screenshot 1"
                 class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
               />
