@@ -42,6 +42,6 @@ const submitForm = () => {
 
 <style scoped>
 .newsletter-bg {
-  background-image: url("@/public'/images/Tomb.png");
+  background-image: url("/public/images/Tomb.png");
 }
 </style>
