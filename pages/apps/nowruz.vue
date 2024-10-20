@@ -1,19 +1,76 @@
 <template>
-  <!-- <section class="bg-white text-black min-h-96"> -->
-  <div
-    class="relative w-full h-96 items-center justify-center bg-cover bg-center"
-    :style="{ backgroundImage: 'url(/images/nowruz.png)' }"
-  >
-    <h1>Nowruz</h1>
+  <PageHeader subtitle="Our Applications" title="Nowruz" />
+  <div class="bg-white py-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row">
+        <!-- Main content section (2/3 width on desktop) -->
+        <div class="md:w-2/3 md:pr-8">
+          <p class="mb-8 text-black text-lg">
+            Nowruz, beautifully displays the most important dates in Persian
+            culture. Always be connected to the Persian calendar with this
+            interactive and convenient mobile app.
+          </p>
+
+          <!-- Screenshot section -->
+          <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-black">Screenshots</h2>
+            <div class="grid grid-cols-3 gap-2">
+              <img
+                src="~/assets/images/screenshot4.png"
+                alt="Screenshot 1"
+                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="~/assets/images/screenshot1.png"
+                alt="Screenshot 2"
+                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+              />
+              <img
+                src="~/assets/images/screenshot2.png"
+                alt="Screenshot 3"
+                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
+              />
+            </div>
+          </div>
+
+          <!-- Additional information section -->
+          <div class="text-black">
+            <h2 class="text-2xl font-bold mb-4">Features</h2>
+            <ul class="list-disc list-inside">
+              <li>Intense beat-em-up gameplay</li>
+              <li>Stunning Persian-inspired visuals</li>
+              <li>Compelling storyline</li>
+              <li>Multiple challenging levels</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Downloads section (1/3 width on desktop) -->
+        <div class="md:w-1/3 mb-8 md:mb-0">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <h2 class="text-2xl font-bold mb-4 text-black">Download Links</h2>
+            <p class="text-gray-500 mb-4">Available on iOS and Android:</p>
+            <div class="flex space-x-4">
+              <a href="#" class="">
+                <img
+                  src="~/assets/images/ios-badge.png"
+                  alt="Download on App Store"
+                  class="w-48 h-auto mb-4"
+                />
+              </a>
+              <a href="#" class="">
+                <img
+                  src="~/assets/images/play-badge.png"
+                  alt="Download onGoogle Play"
+                  class="w-48 h-auto"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="container mx-auto">
-    <p class="my-10 md:text-2xl text-lg">
-      Nowruz, beautifully displays the most important dates in Persian culture.
-      <br />Always be connected to the Persian calendar with this interactive
-      and convenient mobile app.
-    </p>
-  </div>
-  <!-- </section> -->
 </template>
 
 <script setup>

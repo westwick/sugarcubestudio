@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16 container mx-auto text-center">
+  <div class="py-16 px-4 container mx-auto text-center">
     <h2 class="text-black font-bold text-2xl mb-8">Latest News and Updates</h2>
 
     <div class="news-grid">

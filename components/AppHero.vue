@@ -18,7 +18,10 @@
         fearless woman challenging the status quo, fighting for her right to
         live freely.
       </p>
-      <NuxtLink to="/apps" class="hero-button-main gradient-button-yellow">
+      <NuxtLink
+        to="/apps/simurgh"
+        class="hero-button-main gradient-button-yellow"
+      >
         Learn More</NuxtLink
       >
     </div>

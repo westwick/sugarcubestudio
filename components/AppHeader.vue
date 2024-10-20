@@ -1,3 +1,14 @@
+<script setup>
+import { useRoute } from "vue-router";
+import { computed } from "vue";
+
+const route = useRoute();
+
+const isAppsActive = computed(() => {
+  return route.path.startsWith("/apps");
+});
+</script>
+
 <template>
   <header class="px-2 md:px-4">
     <div class="container mx-auto flex items-center justify-between">
@@ -23,7 +34,7 @@
         <NuxtLink
           to="/apps"
           class="navlink text-white text-md font-bold hover:text-yellow-200"
-          exact-active-class="link-active text-yellow-300"
+          :class="{ 'link-active text-yellow-300': isAppsActive }"
         >
           APPS
         </NuxtLink>
@@ -44,18 +55,6 @@
 header {
   background: #171926;
   position: relative;
-}
-
-header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -25px;
-  height: 25px;
-  background: linear-gradient(to bottom, rgba(72, 74, 5, 0.5), transparent);
-  z-index: 10;
-  pointer-events: none;
 }
 
 header a {
