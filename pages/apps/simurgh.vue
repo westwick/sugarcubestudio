@@ -18,10 +18,9 @@
               Featuring Original Music
             </h2>
             <p class="text-black">
-              Simurgh features an original soundtrack composed by
-              <em>composer name</em>, who uses traditional Persian instruments
-              such as the Ney, Santur, and Tombak to craft a unique and
-              immersive musical experience to keep you engaged.
+              Simurgh features an original soundtrack using traditional Persian
+              instruments such as the Ney, Santur, and Tombak to craft a unique
+              and immersive musical experience to keep you engaged.
               <a href="#" class="text-blue-500">Click here</a> to listen to the
               full soundtrack on youtube.
             </p>

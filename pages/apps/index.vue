@@ -19,9 +19,9 @@
             <h3 class="text-3xl font-bold mb-2 text-black">Simurgh</h3>
             <div class="flex"></div>
             <p class="text-gray-800">
-              Step into the streets in this intense beat-em-up adventure.
-              Explore ancient sites and play as a fearless woman challenging the
-              status quo, fighting for her right to live freely.
+              Experience the epic adventure of Simurgh, where myth, history, and
+              reality collide in a fight for freedom that will define the future
+              of a nation.
             </p>
           </div>
           <div class="bg-gray-100 flex flex-row border-t-2 border-gray-200 p-6">
@@ -48,9 +48,9 @@
             <h3 class="text-3xl font-bold mb-2 text-black">Nowruz</h3>
             <div class="flex"></div>
             <p class="text-gray-800">
-              Celebrate Persian New Year and other Persian holidays with Nowruz.
-              Get recipes, custom decorations, and event planning tools to make
-              your celebration truly special.
+              Celebrate the rich cultural heritage of Iran with the Nowruz app,
+              your guide to the traditions, rituals, and festivities of the most
+              important holidays Nowruz, Yalda Night, Cyrus day among others.
             </p>
           </div>
           <div class="bg-gray-100 flex flex-row border-t-2 border-gray-200 p-6">

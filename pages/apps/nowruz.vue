@@ -6,9 +6,13 @@
         <!-- Main content section (2/3 width on desktop) -->
         <div class="md:w-2/3 md:pr-8">
           <p class="mb-8 text-black text-lg">
-            Nowruz, beautifully displays the most important dates in Persian
-            culture. Always be connected to the Persian calendar with this
-            interactive and convenient mobile app.
+            Celebrate Persian culture and traditions with this beautifully
+            crafted app, designed to bring the essence of Nowruz and other
+            beloved festivities to life. Explore engaging features that
+            highlight events like Yalda Night, Cyrus Day, Sizdah Bedar and
+            Chaharshanbeh Soori, offering insights and interactive elements for
+            all ages. Whether you're reconnecting with your roots or discovering
+            something new, this app is your guide to timeless celebrations.
           </p>
 
           <!-- Screenshot section -->
@@ -37,10 +41,10 @@
           <div class="text-black">
             <h2 class="text-2xl font-bold mb-4">Features</h2>
             <ul class="list-disc list-inside">
-              <li>Intense beat-em-up gameplay</li>
-              <li>Stunning Persian-inspired visuals</li>
-              <li>Compelling storyline</li>
-              <li>Multiple challenging levels</li>
+              <li>Celebrate Persian traditions</li>
+              <li>Interactive festive activities</li>
+              <li>Cultural insights and history</li>
+              <li>Vibrant holiday reminders</li>
             </ul>
           </div>
         </div>

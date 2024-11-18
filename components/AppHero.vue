@@ -14,9 +14,10 @@
       <p
         class="text-lg md:text-2xl max-w-2xl mx-auto font-medium text-slate-300"
       >
-        Step into the streets in this intense beat-em-up adventure. Play as a
-        fearless woman challenging the status quo, fighting for her right to
-        live freely.
+        In a game where myth, history and reality intertwine, step into the role
+        of a fearless woman battling a corrupt status quo for her right to live
+        freely. Embark on an epic fight for freedom that will shape the destiny
+        of a nation!
       </p>
       <NuxtLink
         to="/apps/simurgh"

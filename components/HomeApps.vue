@@ -16,9 +16,11 @@
         >
           <h2 class="text-3xl font-bold mb-6 text-black">Our Apps</h2>
           <p class="text-lg mb-6 text-gray-800">
-            Discover our innovative apps designed to enhance your experience.
-            With intuitive features and a user-friendly interface, our apps are
-            a fun way to blah blah blah...
+            Discover immersive experiences that bring culture, history, and
+            adventure to life, offering unique journeys through powerful stories
+            and meaningful traditions. Whether you're exploring new worlds or
+            celebrating timeless rituals, these apps are designed to engage,
+            inspire, and connect you with something truly extraordinary.
           </p>
           <NuxtLink
             to="/apps"
