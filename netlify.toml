@@ -1,7 +1,7 @@
 # netlify.toml
 
-[[plugins]]
-  package = "netlify-plugin-discord"
+# [[plugins]]
+#   package = "netlify-plugin-discord"
 
 [build.environment]
   DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1280341269624918140/dKBJojSf1M6HE1qXhjMhW_Gk2a6ywCQ23o0PqVYcF_i77TglIRlbs-3-cYSSBr5GyJkB"
