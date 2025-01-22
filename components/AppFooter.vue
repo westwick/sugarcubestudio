@@ -86,7 +86,7 @@
       <!-- Footer Bottom -->
       <div class="mt-12 text-center text-slate-600 text-sm">
         <p>&copy; {{ new Date().getFullYear() }} Sugar Cube Studio</p>
-        <p>Terms of Service | Privacy Policy</p>
+        <p><NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink></p>
       </div>
     </div>
   </footer>
