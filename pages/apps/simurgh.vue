@@ -27,27 +27,11 @@
           </div>
 
           <!-- Screenshot section -->
-          <div class="mb-8">
+          <div class="mb-8 relative">
             <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
               Screenshots
             </h2>
-            <div class="grid grid-rows-3 gap-2">
-              <img
-                src="~/assets/simurgh/2024-10-16-07h54m38s347.png"
-                alt="Screenshot 1"
-                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="~/assets/simurgh/2024-10-16-08h31m41s931.png"
-                alt="Screenshot 2"
-                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="~/assets/simurgh/Screenshot_20241014-210110.png"
-                alt="Screenshot 3"
-                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
-              />
-            </div>
+            <ImageSlider :images="screenshots" aspect-ratio="16/9" />
           </div>
 
           <!-- Additional information section -->
@@ -91,3 +75,11 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import screenshot1 from "~/assets/simurgh/2024-10-16-07h54m38s347.png";
+import screenshot2 from "~/assets/simurgh/2024-10-16-08h31m41s931.png";
+import screenshot3 from "~/assets/simurgh/Screenshot_20241014-210110.png";
+
+const screenshots = [screenshot1, screenshot2, screenshot3];
+</script>

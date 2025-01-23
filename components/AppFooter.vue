@@ -62,17 +62,17 @@
             <li class="mb-4">
               <Instagram class="inline mr-2" />
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/sugar_cube_studio/"
                 target="_blank"
                 class="text-gray-400 hover:text-white transition duration-200"
               >
-                instagram.com/sugarcubestudio
+                instagram.com/sugar_cube_studio
               </a>
             </li>
             <li>
               <Youtube class="inline mr-2" />
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@sugarcubestudio"
                 target="_blank"
                 class="text-gray-400 hover:text-white transition duration-200"
               >
@@ -86,7 +86,7 @@
       <!-- Footer Bottom -->
       <div class="mt-12 text-center text-slate-600 text-sm">
         <p>&copy; {{ new Date().getFullYear() }} Sugar Cube Studio</p>
-        <p>Terms of Service | Privacy Policy</p>
+        <p><NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink></p>
       </div>
     </div>
   </footer>
