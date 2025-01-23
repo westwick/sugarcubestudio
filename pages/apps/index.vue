@@ -21,7 +21,7 @@
             <p class="text-gray-800">
               Experience the epic adventure of Simurgh, where myth, history, and
               reality collide in a fight for freedom that will define the future
-              of a nation.
+              of a nation. The newest app from Sugar Cube Studio!
             </p>
           </div>
           <div class="bg-gray-100 flex flex-row border-t-2 border-gray-200 p-6">

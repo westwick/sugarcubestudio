@@ -31,44 +31,7 @@
             <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
               Screenshots
             </h2>
-            <div class="relative group">
-              <img
-                :src="screenshots[currentImageIndex]"
-                :alt="`Screenshot ${currentImageIndex + 1}`"
-                class="w-full h-auto aspect-auto object-cover rounded-lg shadow-md"
-              />
-              <!-- Navigation arrows -->
-              <button
-                @click="previousImage"
-                class="absolute left-0 top-1/2 -translate-x-6 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all"
-              >
-                <span class="sr-only">Previous</span>
-                &#8592;
-                <!-- Left arrow -->
-              </button>
-              <button
-                @click="nextImage"
-                class="absolute right-0 top-1/2 translate-x-6 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all"
-              >
-                <span class="sr-only">Next</span>
-                &#8594;
-                <!-- Right arrow -->
-              </button>
-              <!-- Image indicators -->
-              <div
-                class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"
-              >
-                <button
-                  v-for="(_, index) in screenshots"
-                  :key="index"
-                  @click="currentImageIndex = index"
-                  class="w-2 h-2 rounded-full"
-                  :class="
-                    index === currentImageIndex ? 'bg-white' : 'bg-white/50'
-                  "
-                ></button>
-              </div>
-            </div>
+            <ImageSlider :images="screenshots" aspect-ratio="16/9" />
           </div>
 
           <!-- Additional information section -->
@@ -114,25 +77,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-
-// Import images directly
 import screenshot1 from "~/assets/simurgh/2024-10-16-07h54m38s347.png";
 import screenshot2 from "~/assets/simurgh/2024-10-16-08h31m41s931.png";
 import screenshot3 from "~/assets/simurgh/Screenshot_20241014-210110.png";
 
 const screenshots = [screenshot1, screenshot2, screenshot3];
-
-const currentImageIndex = ref(0);
-
-const nextImage = () => {
-  currentImageIndex.value = (currentImageIndex.value + 1) % screenshots.length;
-};
-
-const previousImage = () => {
-  currentImageIndex.value =
-    currentImageIndex.value === 0
-      ? screenshots.length - 1
-      : currentImageIndex.value - 1;
-};
 </script>
