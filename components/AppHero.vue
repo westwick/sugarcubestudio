@@ -4,7 +4,7 @@ import heroImage from "@/assets/images/homepagetest.png";
 
 <template>
   <div
-    class="relative w-full flex items-center bg-cover bg-center min-h-[600px]"
+    class="hero relative w-full flex items-center bg-cover bg-center min-h-[600px]"
     :style="{ backgroundImage: `url(${heroImage})` }"
   >
     <!-- Solid overlay to dim the background -->
@@ -36,6 +36,9 @@ import heroImage from "@/assets/images/homepagetest.png";
 </template>
 
 <style>
+.hero {
+  background-position-y: 0;
+}
 .hero-button-main {
   @apply mt-6 relative inline-block text-base sm:text-xl py-2 px-6 sm:py-3 md:px-10 cursor-pointer text-black font-bold rounded-md;
 }
