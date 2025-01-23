@@ -1,23 +1,33 @@
 <template>
   <div class="relative group">
-    <div :class="containerClass">
-      <img
-        :src="images[currentImageIndex]"
-        :alt="`Image ${currentImageIndex + 1}`"
-        class="w-full h-auto rounded-lg shadow-md"
-        :class="aspectRatioClass"
-      />
+    <div :class="containerClass" class="overflow-hidden">
+      <div
+        class="flex transition-transform duration-300 ease-in-out"
+        :style="{ transform: `translateX(-${currentImageIndex * 100}%)` }"
+      >
+        <img
+          v-for="(image, index) in images"
+          :key="index"
+          :src="image"
+          :alt="`Image ${index + 1}`"
+          class="shrink-0 rounded-lg shadow-md"
+          :class="[
+            aspectRatioClass,
+            props.aspectRatio === '9/16' ? 'w-[80%] mx-[10%]' : 'w-full',
+          ]"
+        />
+      </div>
       <!-- Navigation arrows -->
       <button
         @click="previousImage"
-        class="absolute left-0 top-1/2 -translate-x-6 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all"
+        class="absolute left-2 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all z-10"
       >
         <span class="sr-only">Previous</span>
         <ChevronLeft />
       </button>
       <button
         @click="nextImage"
-        class="absolute right-0 top-1/2 translate-x-6 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all"
+        class="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-75 transition-all z-10"
       >
         <span class="sr-only">Next</span>
         <ChevronRight />
@@ -74,6 +84,6 @@ const aspectRatioClass = computed(() => ({
 
 const containerClass = computed(() => ({
   "max-w-2xl mx-auto": props.aspectRatio === "16/9",
-  "max-w-sm mx-auto": props.aspectRatio === "9/16", // narrower max-width for portrait images
+  "max-w-md mx-auto relative": props.aspectRatio === "9/16", // adjusted width for portrait
 }));
 </script>
