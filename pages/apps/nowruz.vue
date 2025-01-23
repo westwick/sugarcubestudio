@@ -18,23 +18,7 @@
           <!-- Screenshot section -->
           <div class="mb-8">
             <h2 class="text-2xl font-bold mb-4 text-black">Screenshots</h2>
-            <div class="grid grid-cols-3 gap-2">
-              <img
-                src="~/assets/images/screenshot4.png"
-                alt="Screenshot 1"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="~/assets/images/screenshot1.png"
-                alt="Screenshot 2"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
-              />
-              <img
-                src="~/assets/images/screenshot2.png"
-                alt="Screenshot 3"
-                class="w-full h-auto aspect-[9/16] object-cover rounded-lg shadow-md"
-              />
-            </div>
+            <ImageSlider :images="screenshots" aspect-ratio="9/16" />
           </div>
 
           <!-- Additional information section -->
@@ -51,7 +35,7 @@
 
         <!-- Downloads section (1/3 width on desktop) -->
         <div class="md:w-1/3 mb-8 md:mb-0">
-          <div class="bg-gray-100 p-6 rounded-lg">
+          <div class="bg-gray-100 p-6 rounded-lg sticky top-4">
             <h2 class="text-2xl font-bold mb-4 text-black">Download Links</h2>
             <p class="text-gray-500 mb-4">Available on iOS and Android:</p>
             <div class="flex space-x-4">
@@ -78,6 +62,12 @@
 </template>
 
 <script setup>
+import screenshot1 from "~/assets/images/screenshot4.png";
+import screenshot2 from "~/assets/images/screenshot1.png";
+import screenshot3 from "~/assets/images/screenshot2.png";
+
+const screenshots = [screenshot1, screenshot2, screenshot3];
+
 useHead({
   meta: [
     { name: "description", content: "Test description for Nowruz." },
