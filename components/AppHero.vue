@@ -7,8 +7,8 @@
     <div class="absolute inset-0 bg-black opacity-40"></div>
 
     <!-- Content -->
-    <div class="relative z-10 text-center text-white py-8 md:py-20 px-4">
-      <h1 class="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg mt-40">
+    <div class="relative z-10 text-center text-white py-4 px-4">
+      <h1 class="text-5xl md:text-7xl font-bold drop-shadow-lg mt-2 mb-80">
         Simurgh: Coming Soon
       </h1>
       <p
