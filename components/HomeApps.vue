@@ -41,12 +41,12 @@ import appMockupImage from "~/assets/images/nowruz-mockup.png";
 
 <style scoped>
 .app-mockup {
-  bottom: -496px; /* Mobile view: Adjust this value as needed */
+  bottom: -150px; /* Mobile view: Adjust this value as needed */
 }
 
 @media (min-width: 768px) {
   .app-mockup {
-    bottom: -450px; /* Medium and up: Adjust this value for desktop as needed */
+    bottom: -122px; /* Medium and up: Adjust this value for desktop as needed */
   }
 }
 </style>

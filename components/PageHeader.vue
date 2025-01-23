@@ -1,6 +1,6 @@
 <template>
   <div class="page-header py-16 text-left">
-    <div class="container mx-auto px-4 lg:px-0">
+    <div class="container mx-auto px-4">
       <p class="text-gray-400 text-lg mb-4 uppercase">{{ subtitle }}</p>
       <h1 class="text-2xl md:text-4xl font-bold text-white">{{ title }}</h1>
     </div>
