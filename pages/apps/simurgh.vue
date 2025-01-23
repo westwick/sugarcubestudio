@@ -78,7 +78,7 @@
 
 <script setup>
 import screenshot1 from "~/assets/simurgh/2024-10-16-07h54m38s347.jpg";
-import screenshot2 from "~/assets/simurgh/2024-10-16-08h31m41s931.png";
+import screenshot2 from "~/assets/simurgh/2024-10-16-08h31m41s931.jpg";
 import screenshot3 from "~/assets/simurgh/Screenshot_20241014-210110.jpg";
 
 const screenshots = [screenshot1, screenshot2, screenshot3];
