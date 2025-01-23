@@ -34,6 +34,7 @@
 
           <div class="text-center mt-8 mb-4">
             <button
+              @click="openNewsletterModal"
               class="gradient-button-yellow text-blue-950 font-semibold py-2 px-6 rounded transition-all duration-300"
             >
               Join the mailing list
@@ -90,10 +91,19 @@
       </div>
     </div>
   </footer>
+
+  <NewsletterModal ref="newsletterModal" />
 </template>
 
 <script setup>
 import { Twitter, Youtube, Instagram } from "lucide-vue-next";
+import { ref } from "vue";
+
+const newsletterModal = ref(null);
+
+const openNewsletterModal = () => {
+  newsletterModal.value?.open();
+};
 </script>
 
 <style>

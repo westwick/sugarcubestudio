@@ -15,13 +15,22 @@
               placeholder="Enter your email"
               class="text-black w-full px-4 py-2 mb-4 rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:outline-none"
               required
+              :disabled="loading"
             />
             <button
               type="submit"
               class="w-full gradient-button text-white font-bold py-2 px-4 rounded"
+              :disabled="loading"
             >
-              Subscribe
+              {{ loading ? "Subscribing..." : "Subscribe" }}
             </button>
+            <p
+              v-if="message"
+              class="mt-4 text-center text-black"
+              :class="{ 'text-green-600': !message.includes('Sorry') }"
+            >
+              {{ message }}
+            </p>
           </form>
         </div>
       </div>
@@ -33,10 +42,44 @@
 </template>
 
 <script setup>
-const email = ref("");
+import { ref } from "vue";
 
-const submitForm = () => {
-  console.log("Form submitted with email:", email.value);
+const email = ref("");
+const loading = ref(false);
+const message = ref("");
+
+const submitForm = async () => {
+  loading.value = true;
+  message.value = "";
+
+  try {
+    const response = await fetch(
+      "https://connect.mailerlite.com/api/subscribers",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          Authorization: `Bearer ${import.meta.env.VITE_MAILERLITE_API_KEY}`,
+        },
+        body: JSON.stringify({
+          email: email.value,
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Subscription failed");
+    }
+
+    message.value = "Thank you for subscribing!";
+    email.value = "";
+  } catch (error) {
+    console.error("Error:", error);
+    message.value = "Sorry, something went wrong. Please try again later.";
+  } finally {
+    loading.value = false;
+  }
 };
 </script>
 
