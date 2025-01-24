@@ -62,9 +62,9 @@
 </template>
 
 <script setup>
-import screenshot1 from "~/assets/images/screenshot4.png";
-import screenshot2 from "~/assets/images/screenshot1.png";
-import screenshot3 from "~/assets/images/screenshot2.png";
+import screenshot1 from "~/assets/images/screenshot4.jpg";
+import screenshot2 from "~/assets/images/screenshot1.jpg";
+import screenshot3 from "~/assets/images/screenshot2.jpg";
 
 const screenshots = [screenshot1, screenshot2, screenshot3];
 
