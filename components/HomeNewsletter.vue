@@ -22,7 +22,7 @@
               class="w-full gradient-button text-white font-bold py-2 px-4 rounded"
               :disabled="loading"
             >
-              {{ loading ? "Subscribing..." : "Subscribe" }}
+              {{ loading ? "Subscribing..." : "Sign up" }}
             </button>
             <p
               v-if="message"
@@ -72,7 +72,7 @@ const submitForm = async () => {
       throw new Error("Subscription failed");
     }
 
-    message.value = "Thank you for subscribing!";
+    message.value = "Thank you for joining our newsletter!";
     email.value = "";
   } catch (error) {
     console.error("Error:", error);
