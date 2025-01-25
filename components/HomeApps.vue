@@ -8,7 +8,7 @@
           <img
             :src="appMockupImage"
             alt="App Mockup"
-            class="absolute w-full max-w-md mx-auto left-0 right-0 object-contain app-mockup"
+            class="absolute w-full max-w-md mx-auto px-4 left-0 right-0 object-contain app-mockup"
           />
         </div>
         <div
@@ -46,7 +46,7 @@ import appMockupImage from "~/assets/images/nowruz-mockup.png";
 
 @media (min-width: 768px) {
   .app-mockup {
-    bottom: -122px; /* Medium and up: Adjust this value for desktop as needed */
+    bottom: -140px; /* Medium and up: Adjust this value for desktop as needed */
   }
 }
 </style>

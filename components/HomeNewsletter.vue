@@ -3,7 +3,7 @@
     <div class="container mx-auto flex flex-col md:flex-row items-center my-20">
       <div class="md:w-1/2 mb-8 md:mb-0">
         <div
-          class="max-w-md bg-white p-8 rounded-lg shadow-lg border border-gray-200"
+          class="max-w-md bg-white p-8 rounded-lg shadow-lg border border-gray-200 m-4"
         >
           <h2 class="text-black font-bold text-xl mb-4">
             Be the first to know when we launch new stuff.

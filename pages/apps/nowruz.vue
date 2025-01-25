@@ -35,7 +35,7 @@
 
         <!-- Downloads section (1/3 width on desktop) -->
         <div class="md:w-1/3 mb-8 md:mb-0">
-          <div class="bg-gray-100 p-6 rounded-lg sticky top-4">
+          <div class="bg-gray-100 p-6 rounded-lg sticky top-4 mt-8 md:mt-0">
             <h2 class="text-2xl font-bold mb-4 text-black">Download Links</h2>
             <p class="text-gray-500 mb-4">Available on iOS and Android:</p>
             <div class="flex space-x-4">

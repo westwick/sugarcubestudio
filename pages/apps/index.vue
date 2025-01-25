@@ -5,7 +5,7 @@
   />
   <div class="bg-gradient-to-t from-[rgb(215,223,232)] to-[rgb(244,246,248)]">
     <div class="container py-16 px-4 lg:px-0 mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-4">
         <div
           class="app-card bg-white rounded-lg overflow-hidden shadow-md flex flex-col h-full"
         >
