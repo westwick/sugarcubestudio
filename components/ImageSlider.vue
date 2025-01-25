@@ -10,7 +10,7 @@
           :key="index"
           :src="image"
           :alt="`Image ${index + 1}`"
-          class="shrink-0 rounded-lg shadow-md"
+          class="shrink-0"
           :class="[
             aspectRatioClass,
             props.aspectRatio === '9/16' ? 'w-[80%] mx-[10%]' : 'w-full',

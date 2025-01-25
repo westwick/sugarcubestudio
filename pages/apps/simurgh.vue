@@ -12,6 +12,13 @@
             status quo, fighting for her right to live freely.
           </p>
 
+          <!-- Screenshot section -->
+          <div class="mb-8 relative">
+            <h2 class="text-md font-bold text-gray-500 uppercase">
+              Screenshots
+            </h2>
+            <ImageSlider :images="screenshots" aspect-ratio="16/9" />
+          </div>
           <!-- Music section -->
           <div class="mb-8">
             <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
@@ -20,24 +27,22 @@
             <p class="text-black">
               Simurgh features an original soundtrack using traditional Persian
               instruments such as the Ney, Santur, and Tombak to craft a unique
-              and immersive musical experience to keep you engaged.
-              <a href="#" class="text-blue-500">Click here</a> to listen to the
-              full soundtrack on youtube.
+              and immersive musical experience to keep you engaged. Full
+              soundtrack available on
+              <a
+                href="https://www.youtube.com/@sugarcubestudio"
+                target="_blank"
+                class="text-blue-500"
+                >Youtube</a
+              >
+              and Spotify.
             </p>
-          </div>
-
-          <!-- Screenshot section -->
-          <div class="mb-8 relative">
-            <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
-              Screenshots
-            </h2>
-            <ImageSlider :images="screenshots" aspect-ratio="16/9" />
           </div>
 
           <!-- Additional information section -->
           <div class="text-black">
             <h2 class="text-md font-bold mb-4 text-gray-500 uppercase">
-              Features
+              More Features
             </h2>
             <ul class="list-disc list-inside">
               <li>Intense beat-em-up gameplay</li>
@@ -52,8 +57,8 @@
         <div class="md:w-1/3 mb-8 md:mb-0">
           <div class="bg-gray-100 p-6 rounded-lg sticky top-4">
             <h2 class="text-2xl font-bold mb-4 text-black">Download Links</h2>
-            <p class="text-gray-500 mb-4">Available on iOS and Android:</p>
-            <div class="flex space-x-4">
+            <p class="text-gray-500 mb-4">Coming Soon!</p>
+            <!-- <div class="flex space-x-4">
               <a href="#" class="">
                 <img
                   src="~/assets/images/ios-badge.png"
@@ -68,7 +73,7 @@
                   class="w-48 h-auto"
                 />
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

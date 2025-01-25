@@ -39,14 +39,22 @@
             <h2 class="text-2xl font-bold mb-4 text-black">Download Links</h2>
             <p class="text-gray-500 mb-4">Available on iOS and Android:</p>
             <div class="flex space-x-4">
-              <a href="#" class="">
+              <a
+                href="https://apps.apple.com/us/app/nowruz/id1612753672"
+                target="_blank"
+                class=""
+              >
                 <img
                   src="~/assets/images/ios-badge.png"
                   alt="Download on App Store"
                   class="w-48 h-auto mb-4"
                 />
               </a>
-              <a href="#" class="">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sugarcubestudio.nowruz"
+                target="_blank"
+                class=""
+              >
                 <img
                   src="~/assets/images/play-badge.png"
                   alt="Download onGoogle Play"
@@ -62,9 +70,9 @@
 </template>
 
 <script setup>
-import screenshot1 from "~/assets/images/screenshot4.jpg";
-import screenshot2 from "~/assets/images/screenshot1.jpg";
-import screenshot3 from "~/assets/images/screenshot2.jpg";
+import screenshot1 from "~/assets/images/nowruz_ss1.jpg";
+import screenshot2 from "~/assets/images/nowruz_ss2.jpg";
+import screenshot3 from "~/assets/images/nowruz_ss3.jpg";
 
 const screenshots = [screenshot1, screenshot2, screenshot3];
 
