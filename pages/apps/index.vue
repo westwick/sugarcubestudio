@@ -4,8 +4,8 @@
     title="Explore our apps, all available on iOS and Android"
   />
   <div class="bg-gradient-to-t from-[rgb(215,223,232)] to-[rgb(244,246,248)]">
-    <div class="container py-16 px-4 lg:px-0 mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-4">
+    <div class="container py-16 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-8">
         <div
           class="app-card bg-white rounded-lg overflow-hidden shadow-md flex flex-col h-full"
         >
@@ -13,7 +13,7 @@
             <img
               src="/bird.jpg"
               alt="Simurgh App"
-              class="w-full h-64 object-cover"
+              class="w-full h-64 object-cover object-center"
             />
           </NuxtLink>
 
@@ -42,7 +42,7 @@
           <NuxtLink to="/apps/nowruz">
             <img
               src="~/assets/images/nowruz.jpg"
-              alt="Simurgh App"
+              alt="Nowruz App"
               class="w-full h-64 object-cover object-top"
             />
           </NuxtLink>

@@ -11,7 +11,7 @@ import heroImage from "@/assets/images/homepagetest.png";
     <div class="absolute inset-0 bg-black opacity-40"></div>
 
     <!-- Content -->
-    <div class="relative z-10 text-white py-48 px-4 container mx-auto">
+    <div class="relative z-10 text-white py-48 px-8 container mx-auto">
       <div class="md:w-1/2 text-center md:text-left">
         <h1 class="text-3xl md:text-5xl font-bold drop-shadow-lg mt-2 mb-4">
           Simurgh: Coming Soon

@@ -1,7 +1,7 @@
 <template>
   <PageHeader subtitle="Our Applications" title="Simurgh" />
   <div class="bg-white py-16">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-8">
       <div class="flex flex-col md:flex-row">
         <!-- Main content section (2/3 width on desktop) -->
         <div class="md:w-2/3 md:pr-8">

@@ -3,7 +3,7 @@
     <img src="@/assets/images/graddiv.jpg" class="w-full h-4 md:h-8" />
   </section>
   <footer class="bg-gray-900 text-white py-12">
-    <div class="container mx-auto px-4 lg:px-0">
+    <div class="container mx-auto px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Section 1 -->
         <div>

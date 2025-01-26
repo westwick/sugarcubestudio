@@ -12,7 +12,7 @@
           />
         </div>
         <div
-          class="w-full px-8 pb-32 md:pb-0 md:px-0 md:w-1/2 md:pl-8 order-1 md:order-2"
+          class="w-full px-8 pb-32 md:pb-0 md:px-8 md:w-1/2 order-1 md:order-2"
         >
           <h2 class="text-3xl font-bold mb-6 text-black">Our Apps</h2>
           <p class="text-lg mb-6 text-gray-800">
