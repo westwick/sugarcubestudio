@@ -13,7 +13,7 @@
             <img
               src="/bird.jpg"
               alt="Simurgh App"
-              class="w-full h-56 object-cover"
+              class="w-full h-64 object-cover"
             />
           </NuxtLink>
 
@@ -41,9 +41,9 @@
         >
           <NuxtLink to="/apps/nowruz">
             <img
-              src="~/assets/images/nowruz.png"
+              src="~/assets/images/nowruz.jpg"
               alt="Simurgh App"
-              class="w-full h-56 object-cover object-top"
+              class="w-full h-64 object-cover object-top"
             />
           </NuxtLink>
 
