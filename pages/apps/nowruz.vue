@@ -70,11 +70,19 @@
 </template>
 
 <script setup>
-import screenshot1 from "~/assets/images/nowruz_ss1.jpg";
-import screenshot2 from "~/assets/images/nowruz_ss2.jpg";
-import screenshot3 from "~/assets/images/nowruz_ss3.jpg";
+import screenshot1 from "~/assets/images/nowruzapp5.jpg";
+import screenshot2 from "~/assets/images/nowruzapp4.jpg";
+import screenshot3 from "~/assets/images/nowruzapp3.jpg";
+import screenshot4 from "~/assets/images/nowruzapp2.jpg";
+import screenshot5 from "~/assets/images/nowruzapp1.jpg";
 
-const screenshots = [screenshot1, screenshot2, screenshot3];
+const screenshots = [
+  screenshot1,
+  screenshot2,
+  screenshot3,
+  screenshot4,
+  screenshot5,
+];
 
 useHead({
   meta: [
