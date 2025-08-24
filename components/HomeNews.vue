@@ -7,7 +7,7 @@
       <div class="news-card">
         <div class="news-image-placeholder"></div>
         <div class="news-content">
-          <h3 class="news-headline">News Headline 1</h3>
+          <h3 class="news-headline">Teaser Release</h3>
           <p class="news-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
