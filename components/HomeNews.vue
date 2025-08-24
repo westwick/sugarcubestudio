@@ -7,10 +7,19 @@
       <div class="news-card">
         <div class="news-image-placeholder"></div>
         <div class="news-content">
-          <h3 class="news-headline">Teaser Release</h3>
+          <h3 class="news-headline">Simurgh Teaser Released on Instagram</h3>
           <p class="news-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Teaser for the Simurgh mobile game has been released for Instagram.
+          </p>
+          <p>
+            <a
+              href="https://www.instagram.com/p/DNtXrAhWnPR/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600 underline"
+            >
+              View on Instagram
+            </a>
           </p>
         </div>
       </div>
@@ -19,10 +28,19 @@
       <div class="news-card">
         <div class="news-image-placeholder"></div>
         <div class="news-content">
-          <h3 class="news-headline">News Headline 2</h3>
+          <h3 class="news-headline">Simurgh Teaser Released on YouTube</h3>
           <p class="news-text">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            Teaser for the Simurgh mobile game has been released for YouTube.
+          </p>
+          <p>
+            <a
+              href="https://www.youtube.com/shorts/dyVXUoq0_VE"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600 underline"
+            >
+              View on Instagram
+            </a>
           </p>
         </div>
       </div>
@@ -31,10 +49,19 @@
       <div class="news-card">
         <div class="news-image-placeholder"></div>
         <div class="news-content">
-          <h3 class="news-headline">News Headline 3</h3>
+          <h3 class="news-headline">Simurgh Game Testers</h3>
           <p class="news-text">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
+            We are looking for game testers for our game Simurgh.
+          </p>
+          <p>
+            <a
+              href="https://sugarcubestudio.com/game-tester"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600 underline"
+            >
+              Sign Up Today!!
+            </a>
           </p>
         </div>
       </div>
