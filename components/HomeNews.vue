@@ -39,7 +39,7 @@
               rel="noopener noreferrer"
               class="text-blue-600 underline"
             >
-              View on Instagram
+              View on YouTube
             </a>
           </p>
         </div>
